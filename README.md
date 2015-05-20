@@ -1,7 +1,5 @@
 ####Initial setup
 
-* Install Ruby. Supported Ruby versions include 1.9.3, 2.0.0 and 2.1.0.
-
 * Checkout the lobsters git tree from Github
 
          $ git clone git://github.com/jcs/lobsters.git
