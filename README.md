@@ -2,10 +2,6 @@
 
 * Checkout the lobsters git tree from Github
 
-         $ git clone git://github.com/jcs/lobsters.git
-         $ cd lobsters
-         lobsters$
-
 * Run Bundler to install/bundle gems needed by the project:
 
          lobsters$ bundle
@@ -18,11 +14,6 @@
 generated key from the output of `rake secret`:
 
           Lobsters::Application.config.secret_key_base = 'your random secret here'
-
-* (Optional, only needed for the search engine) Install Sphinx.  Build Sphinx
-config and start server:
-
-          lobsters$ rake ts:rebuild
 
 * Define your site's name and default domain, which are used in various places,
 in a `config/initializers/production.rb` or similar file:
